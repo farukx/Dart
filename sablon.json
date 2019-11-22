@@ -92,7 +92,10 @@
                 "child": {
                     "type": "Text",
                     "data": "öşğüüğüü",
-                    "color": "#FFFFFF"
+                    "color": "#FFFFFF",
+                    "style": {
+                      "fontSize": 30.0
+                    }
                 }
             }
         }

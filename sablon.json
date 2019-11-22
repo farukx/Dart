@@ -91,7 +91,7 @@
                 "height": 70.0,
                 "child": {
                     "type": "Text",
-                    "data": "öşğüüğüü",
+                    "data": "HABERLER - HABERLER - HABERLER",
                     "color": "#FFFFFF",
                     "style": {
                       "fontSize": 30.0

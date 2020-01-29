@@ -1,0 +1,15 @@
+{
+  "type": "Container",
+  "color": "#581845",
+  "alignment": "center",
+  "child": {
+    "type": "Text",
+    "data": "Sablon 2",
+    "maxLines": 3,
+    "overflow": "ellipsis",
+    "style": {
+      "color": "#00FFFF",
+      "fontSize": 20.0
+    }
+  }
+}

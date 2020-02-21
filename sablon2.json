@@ -1,15 +1,166 @@
 {
-  "type": "Container",
-  "color": "#581845",
-  "alignment": "center",
-  "child": {
-    "type": "Text",
-    "data": "Sablon 2",
-    "maxLines": 3,
-    "overflow": "ellipsis",
-    "style": {
-      "color": "#00FFFF",
-      "fontSize": 20.0
-    }
-  }
+   "type": "Container",
+   "padding": "5,5,5,5",
+   "child": {
+      "type": "Column",
+      "children": [
+         {
+            "type": "Flexible",
+            "flex": 10,
+            "child": {
+               "type": "Container",
+               "child": {
+                  "type": "Column",
+                  "children": [
+                     {
+                        "type": "Flexible",
+                        "flex": 1,
+                        "child": {
+                           "type": "Container",
+                           "child": {
+                              "type": "Row",
+                              "children": [
+                                 {
+                                    "type": "Flexible",
+                                    "flex": 1,
+                                    "child": {
+                                       "type": "Container",
+                                       "color": "#E56666",
+                                       "child": {
+                                          "type": "Center",
+                                          "child": {
+                                             "type": "Carousel",
+                                             "images": [
+                                                {
+                                                   "type": "NetworkImage",
+                                                   "src": "https://mediabox.ibb.gov.tr/wp-content/uploads/2019/11/ortakoy-iskele.jpg"
+                                                },
+                                                {
+                                                   "type": "NetworkImage",
+                                                   "src": "https://mediabox.ibb.gov.tr/wp-content/uploads/2019/11/fsm-koprusu.jpg"
+                                                },
+                                                {
+                                                   "type": "NetworkImage",
+                                                   "src": "https://mediabox.ibb.gov.tr/wp-content/uploads/2019/11/ibb.istanbul-slide-3.png"
+                                                },
+                                                {
+                                                   "type": "NetworkImage",
+                                                   "src": "https://mediabox.ibb.gov.tr/wp-content/uploads/2019/11/ibb.istanbul-slide-2.png"
+                                                },
+                                                {
+                                                   "type": "NetworkImage",
+                                                   "src": "https://mediabox.ibb.gov.tr/wp-content/uploads/2019/11/ibb.istanbul-slide-1.png"
+                                                },
+                                                {
+                                                   "type": "NetworkImage",
+                                                   "src": "https://mediabox.ibb.gov.tr/wp-content/uploads/2019/11/ibb.istanbul-slide-4.png"
+                                                },
+                                                {
+                                                   "type": "NetworkImage",
+                                                   "src": "https://mediabox.ibb.gov.tr/wp-content/uploads/2019/11/ibb.istanbul-slide-5.png"
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    }
+                                 },
+                                 {
+                                    "type": "Container",
+                                    "padding": "5,5,5,5"
+                                 },
+                                 {
+                                    "type": "Flexible",
+                                    "flex": 1,
+                                    "child": {
+                                       "type": "Container",
+                                       "color": "#E59866",
+                                       "child": {
+                                          "type": "Center",
+                                          "child": {
+                                             "type": "SimpleViewPlayer",
+                                             "videourl": "http://10.3.26.84/1.mp4"
+                                          }
+                                       }
+                                    }
+                                 }
+                              ]
+                           }
+                        }
+                     },
+                     {
+                        "type": "Container",
+                        "padding": "5,5,5,5"
+                     },
+                     {
+                        "type": "Flexible",
+                        "flex": 1,
+                        "child": {
+                           "type": "Container",
+                           "child": {
+                              "type": "Row",
+                              "children": [
+                                 {
+                                    "type": "Flexible",
+                                    "flex": 1,
+                                    "child": {
+                                       "type": "Container",
+                                       "color": "#E56666",
+                                       "child": {
+                                          "type": "Center",
+                                          "child": {
+                                             "type": "Text",
+                                             "type": "NetworkImage",
+                                             "src": "https://static-maps.yandex.ru/1.x/?lang=en_US&ll=28.98824,41.043451&z=10&size=650,310&l=map,trf"
+                                          }
+                                       }
+                                    }
+                                 },
+                                 {
+                                    "type": "Container",
+                                    "padding": "5,5,5,5"
+                                 },
+                                 {
+                                    "type": "Flexible",
+                                    "flex": 1,
+                                    "child": {
+                                       "type": "Container",
+                                       "color": "#E59866",
+                                       "child": {
+                                          "type": "Center",
+                                          "child": {
+                                             "type": "WebView",
+                                             "initialUrl": "https://www.ibb.istanbul/"
+                                          }
+                                       }
+                                    }
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  ]
+               }
+            }
+         },
+         {
+            "type": "Container",
+            "padding": "5,5,5,5"
+         },
+         {
+            "type": "Flexible",
+            "flex": 1,
+            "child": {
+               "type": "Container",
+               "color": "#FFC300",
+               "child": {
+                  "type": "Center",
+                  "child": {
+                     "type": "Marquee",
+                     "text": "DENEME 1 2 3 4 5 - "
+                  }
+               }
+            }
+         }
+      ]
+   }
 }

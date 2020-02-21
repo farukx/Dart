@@ -1,15 +1,21 @@
 {
-  "type": "Container",
-  "color": "#900C3F",
-  "alignment": "center",
-  "child": {
-    "type": "Text",
-    "data": "Sablon 1",
-    "maxLines": 3,
-    "overflow": "ellipsis",
-    "style": {
-      "color": "#00FFFF",
-      "fontSize": 20.0
-    }
-  }
+   "type": "Container",
+   "padding": "5,5,5,5",
+   "child": {
+      "type": "Row",
+      "children": [
+         {
+            "type": "Flexible",
+            "flex": 1,
+            "child": {
+               "type": "Container",
+               "child": {
+                  "type": "SimpleViewPlayer",
+				"videourl": "http://npserver2.ibb.gov.tr/webtv/webtv_wowza1/playlist.m3u8"
+   
+               }
+            }
+         } 
+      ]
+   }
 }
